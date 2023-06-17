@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 98vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bold;
+    margin: 1%;
+}
+h1 span{
+    color: rgb(50, 187, 80);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1024px;
+    gap: 30px;
+    margin: auto;
+    padding: 30px 0px;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.card{
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 10px 1px #3f3f3f;
+    background-color: #fff;
+
+}
+
+.imagem{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.um{
+    background-image: url("img/coxinha.jpg");
+}
+.dois{
+    background-image: url("img/mousse.png");
+}
+.tres{
+    background-image: url("img/hamburger-artesanal.jpg");
+}
+.quatro{
+    background-image: url("img/pizza.png");
+}
+.quinto{
+    background-image: url("img/limonada.jpg");
+}
+.sexto{
+    background-image: url("img/suco-de-laranja.jpg");
+}
+
+.card .texto{
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: rgba(128, 128, 128, 0.7) 2px solid ;
+    /* border: lawngreen 2px solid; */
+}
+
+.card .valor{
+    height: 12%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .carrinho{
+    box-shadow: 0px 0px 5px 1px grey;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    border-radius: 20%;
+}
+
